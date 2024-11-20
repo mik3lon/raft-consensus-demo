@@ -52,20 +52,20 @@ for learning and experimenting with distributed consensus mechanisms.
 
 Run the application with the following command:
 
-    ```bash
+```bash
     ./raft-demo <node_id> <raft_port> <http_port>
-    ```
+```
 
 #### Example
 
 Start three nodes:
 
-    ```bash
+```bash
     ./raft-demo node1 8081 9001
     ./raft-demo node2 8082 9002
     ./raft-demo node3 8083 9003
-    Once the nodes are up, they form a Raft cluster with node1 as the initial leader (if bootstrap conditions are met).
-    ```
+```
+Once the nodes are up, they form a Raft cluster with node1 as the initial leader (if bootstrap conditions are met).
 
 ### Architecture
 #### Raft Node Initialization

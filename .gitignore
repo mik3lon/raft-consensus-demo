@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary and test results
+*.test
+*.out
+
+# Output of the `go run` command
+go-build/
+go.sum
+*.log
+
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+vendor/
+
+# Binary output directories and executables
+bin/
+build/
+dist/
+
+# Mac OS files
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.dist
+
+# Coverage files
+coverage.out
+
+# Module cache (replace with `go clean -modcache` if you need to clear it locally)
+modcache/
+
+# Docker related files
+docker-compose.override.yml
+
+# Generated files from Go tools
+gen/
+
+# Temporary files
+*.tmp
+*.temp
